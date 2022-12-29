@@ -1,0 +1,677 @@
+.container {
+  max-width: 1600px;
+}
+/* HEADER */
+.hiden-tablet {
+  display: block;
+}
+.show-tablet {
+  display: none;
+}
+.hiden-mobile {
+  display: block;
+}
+.show-mobile {
+  display: none;
+}
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #1f2041;
+  width: 100%;
+}
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__navigation-search {
+  padding-left: 20px;
+}
+.header__navigation-logo {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.header__nav-top > a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  font-size: 1vw;
+  font-family: "Proxima Nova";
+  font-weight: 600;
+}
+.header__nav-top > a:hover {
+  color: rgba(255, 255, 255, 0.774);
+}
+.header__toolbar {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.button__secondary-sml {
+  font-size: 1vw;
+  color: white;
+  background-color: #1f2041;
+  border: 2px white solid;
+  margin-right: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+}
+.button__secondary-sml:hover {
+  background-color: #30314d;
+  color: rgba(255, 255, 255, 0.774);
+  border: 2px rgba(255, 255, 255, 0.774) solid;
+}
+.button__primary-sml {
+  text-align: center;
+  font-size: 1vw;
+  background-color: #ffc758;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+}
+.button__primary-sml:hover {
+  opacity: 0.9;
+}
+/* /HEADER */
+/* MAIN */
+.main {
+  background-image: url("images/untitled2.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.main__content {
+  padding-top: 30px;
+  padding-left: 100px;
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+}
+.main__content-title {
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 4vw;
+  color: #ffc758;
+}
+.main__content-subtitle {
+  color: rgb(223, 213, 213);
+  font-weight: bold;
+  font-size: 4vw;
+}
+.subtitle-size {
+  font-size: 2vw;
+}
+.button-primary-lrg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 80px 10px 80px;
+  color: black;
+  background-color: #ffc758;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button-primary-lrg:hover {
+  opacity: 0.9;
+}
+/* /MAIN */
+/* MAIN__NAV-MIDDLE */
+.main__nav-container {
+  background-color: #4b4072;
+}
+.main__nav-middle {
+  display: flex;
+  justify-content: center;
+  background-color: #4b4072;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.main_nav-middle-link {
+  text-decoration: none;
+  color: white;
+  margin-left: 2px;
+  margin-right: 2px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #473d6d;
+  border-radius: 8px;
+}
+.main_nav-middle-link:hover {
+  background-color: #1f204155;
+}
+.main__nav-middle-icon {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 25px;
+  height: 20px;
+}
+.main__nav-middle-text {
+  width: 50%;
+  padding: 10px 20px 10px 20px;
+  font-size: 1vw;
+  font-weight: 700;
+  font-family: "Proxima Nova";
+}
+.selected {
+  background-color: #1f204155;
+}
+.selected > span {
+  display: flex;
+  justify-content: center;
+  color: #1f2041;
+  border-radius: 8px;
+  background-color: #ffc758;
+  font-size: 1vw;
+  font-weight: 700;
+  padding: 5px 20px 5px 20px;
+  margin: 10px;
+}
+/*/ MAIN__NAV-MIDDLE */
+/* MAIN__SLIDER */
+.main__slider-container {
+  position: relative;
+}
+/* .main__slider-arrows {
+  width: 100%;
+} */
+.main__slider-forms {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.main__slider-forms-search {
+  padding-left: 30px;
+  border: 2px #089ca3 solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 70%;
+  background: url(images/searchWhite2.svg) no-repeat;
+  background-position: right 10px;
+  border-radius: 8px;
+}
+.main__slider-forms-search::placeholder {
+  color: black;
+  font-weight: 700;
+  font-family: "Proxima Nova";
+}
+.main__slider-forms-most-popular {
+  padding-left: 30px;
+  background: url(images/MostPopular1.svg) no-repeat;
+  background-position: 10px 10px;
+  border: 2px #089ca3 solid;
+  border-radius: 8px;
+  margin-left: 20px;
+  width: 30%;
+}
+.main__slider-forms-most-popular::placeholder {
+  background: url(images/arrowPlaceHolder.svg) no-repeat;
+  background-position: right;
+  padding-left: 30px;
+  color: black;
+  font-weight: 700;
+  font-family: "Proxima Nova";
+}
+.main__slider-block {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main__slider-text {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.main__slider-text-title {
+  color: #1f2041;
+  font-weight: 700;
+  font-size: 20px;
+}
+.main__slider-text > div {
+  padding-right: 20px;
+}
+.main__slider-text-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  padding-right: 10px;
+}
+.main__slider-text-img {
+  width: 10px;
+  height: 10px;
+}
+.main__slider-list-games {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.main__slider-list-item {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2041;
+  border-radius: 8px;
+  color: white;
+  z-index: 2;
+  cursor: pointer;
+}
+.main__slider-list-item:hover {
+  opacity: 0.8;
+}
+.main__slider-list-item > span {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  font-weight: 700;
+  font-family: "Proxima Nova";
+}
+/* /MAIN__SLIDER */
+/* MAIN__WINNERS */
+.main__winners-container {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #1f2041;
+}
+.main__winners-title {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 40px;
+  color: white;
+}
+.main__winners-block {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  padding-bottom: 30px;
+  grid-gap: 5px;
+}
+
+.main__winners-item {
+  background-color: #4b4072;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.main__winners-item-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+.main__winners-item-img {
+  padding: 10px;
+  width: 68px;
+  height: 68px;
+}
+.main__winners-item-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+}
+.main__winners-item-text-title {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Proxima Nova";
+  font-style: normal;
+}
+.main__winners-item-text-subtitle {
+  font-size: 10px;
+}
+.main__winners-item-text-link {
+  font-size: 10px;
+  text-decoration: underline;
+  color: #ffc758;
+}
+.main__winners-item-text-date {
+  padding-top: 16px;
+  padding-right: 16px;
+  font-weight: 500;
+  font-size: 10px;
+  color: white;
+}
+/* /MAIN__WINNERS */
+/* MAIN__INFORMATION */
+.main__information-container {
+  width: 100%;
+  background-color: #089ca3;
+}
+.main__information {
+  padding: 32px 20px 32px 20px;
+  /* padding-top: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 32px; */
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.main__information-title {
+  color: #ffc758;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Proxima Nova";
+}
+.main_information-greetings {
+  font-family: "Proxima Nova";
+  font-weight: 600;
+  font-size: 21px;
+  color: white;
+}
+.main__information-line {
+  border: none;
+  background-color: #1b657f;
+  color: #1b657f;
+  height: 2px;
+}
+.main__information-descriptions {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Proxima Nova";
+}
+.main__information-description {
+  padding: 10px;
+}
+.main__information-description {
+  padding: 10px;
+}
+/* /MAIN__INFORMATION */
+/* FOOTER */
+.footer__description-container {
+  background-color: #1f2041;
+  width: 100%;
+}
+.footer__description {
+  max-width: 1100px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.footer__logo {
+  padding-top: 20px;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+.footer__logo-img {
+  width: 140px;
+  height: 50px;
+}
+.footer__description-text {
+  width: 70%;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Proxima Nova";
+}
+.footer__nav-end {
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Proxima Nova";
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.footer__nav-end-link {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Proxima Nova";
+}
+.footer__contacts-container {
+  width: 100%;
+  background-color: #4b4072;
+}
+.footer__contacts {
+  padding-top: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.footer__сontacts-nav-end {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Proxima Nova";
+}
+.footer__contacts-line {
+  border: none;
+  background-color: #ffffff;
+  color: #ffffff;
+  opacity: 0.1;
+  height: 2px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.footer__rounds {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__rounds-link {
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer__rounds-img {
+  padding: 10px;
+  width: 12px;
+  height: 12px;
+}
+/*/FOOTER */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  /* MAIN */
+  .button-primary-lrg {
+    padding: 10px 70px 10px 70px;
+  }
+  /* /MAIN */
+  /* MAIN__SLIDER */
+  .main__slider-forms {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .main__slider-forms-search {
+    margin: 0;
+    width: 85%;
+    margin-bottom: 10px;
+  }
+  .main__slider-forms-most-popular {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    width: 85%;
+  }
+  /* /MAIN__SLIDER */
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 991px;
+  }
+  /* HEADER */
+  .header__navigation-logo {
+    padding-right: 10px;
+  }
+  /* /HEADER */
+  /* MAIN */
+  .button-primary-lrg {
+    padding: 10px 44px 10px 44px;
+  }
+  /* /MAIN */
+  /* MAIN__WINNERS */
+  .main__winners-item-text {
+    padding: 5px;
+  }
+  .main__winners-item-img {
+    padding: 5px;
+  }
+  .main__winners-item-text-date {
+    padding-right: 10px;
+  }
+  /* /MAIN__WINNERS */
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 767px;
+    min-width: 270px;
+  }
+  /* HEADER */
+  .show-tablet {
+    display: block;
+  }
+  .hiden-tablet {
+    display: none;
+  }
+  .header__navigation-logo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header__option {
+    padding-right: 10px;
+  }
+  /* /HEADER */
+  /* MAIN */
+  .main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url("images/untitled4.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  .main__content {
+    padding-top: 150px;
+    padding-left: 0;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+  }
+  .main__content-title {
+    font-size: 7vw;
+  }
+  .button-primary-lrg {
+    font-size: 20px;
+  }
+  /* /MAIN */
+  /* MAIN__NAV-MIDDLE */
+  .main__nav-middle-text {
+    font-size: 2vw;
+    padding: 5px 10px 5px 10px;
+  }
+  .selected > span {
+    font-size: 2vw;
+    padding: 5px 10px 5px 10px;
+  }
+  /* /MAIN__NAV-MIDDLE */
+  /* MAIN_SLIDER */
+  .main__slider-list-games {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  /* /MAIN__SLIDER */
+  /* MAIN__WINNERS */
+  .main__winners-block {
+    grid-template-columns: 2fr 2fr;
+    margin: 10px;
+  }
+  /* /MAIN__WINNERS */
+  /*FOOTER */
+  .footer__nav-end {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .footer__сontacts-nav-end {
+    grid-template-columns: 1fr 1fr;
+  }
+  /*/FOOTER */
+}
+
+@media (max-width: 480px) {
+  /* MAIN */
+  .hiden-mobile {
+    display: none;
+  }
+  .show-mobile {
+    display: block;
+  }
+  .button-primary-lrg {
+    font-size: 15px;
+  }
+  /* /MAIN */
+  /* MAIN__NAV-MIDDLE */
+  .main__nav-middle-text {
+    padding: 10px;
+  }
+  /* /MAIN__NAV-MIDDLE */
+  /* MAIN__SLIDER */
+  .main__slider-list-games {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* /MAIN__SLIDER */
+  /* MAIN__WINNERS */
+  .main__winners-block {
+    grid-template-columns: 2fr;
+    margin: 10px;
+  }
+  /* /MAIN__WINNERS */
+  /* MAIN__INFORMATION */
+  .main__information-descriptions {
+    flex-direction: column;
+  }
+  .main__information-description {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+  }
+  /* /MAIN__INFORMATION */
+}

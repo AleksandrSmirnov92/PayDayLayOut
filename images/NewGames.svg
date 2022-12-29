@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 140" width="110" height="140">
+	<title>NewGames</title>
+	<defs>
+		<image  width="110" height="140" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAACMCAMAAACqCWxAAAAAAXNSR0IB2cksfwAAAGZQTFRFTURyWFB6kIqnpqG4Y1yDvLnJ////6ejtbmeMpqK49PP2bmeLhX+eenOUm5awx8TT09Dc3tzkeXKV09DbhX6d9PT3m5WvvLnKx8TS9PP3sa3BWFB7Y1uDm5avsa7BenOVWE96x8XTmBa5lgAAAmxJREFUeJztmwlywjAMRZtNKWVpA6QL0O3+lywOyzhAItn+9nQYvQPwRt+JHWz54UGxyfKiyMtUsoo6qiTCsqYj9WN8W3a27X1ZdN2ELKroutrWPcUub0o9ZpF1874uV53qVHdfumxR1X1d/Rxr3cuKF7pJU+CNywHXgdU6oaxLFTeKJSvrMgVFWrQS254CICsbocwkGlzgWlragdcw24Q39AkK1NlG9JbUFuDzsnn7PG2e47f2tXmtE2XN/+wQT+7vn2jiGqJx/bpehNich690m0yucYuzCrTRyqm4UBvRMmVxTuUBinMpD1CcS3kBb7iF9N3LITbxUvuO0UnT/MDohGnO+R+SIVsYCpRuI9IFrQU2jUiHGjoiiW0Ls9FOoJvyPyNFsqcEezBljyZoTjFI5hWgTvIJoTrVqU51qlOd6lSnOtWpTnUWGWYPp0PQo7DB2YieOdsSaSNizvWQURqYTXDIXp/N6E4V8Kk8MfKHOeTsYIiROOFRGgbjjBClYSDOGFEaBuKMEqXhZpyRojTciDNWlB3X7XKwXcxbXO1sBp5ocVxs3AafaHH0z0xiDlxHr/vQ+1RXjhUn5IiJY5kuSsM5zgRRGk5xprGd40yla9LqjuUl072m1RV3rUs7dnXaJ/PzoPtKYzs3BSWZxawlYXfZd4mmrb4vvx8URflfZDsG7KUS9uwe223OdiZg77DsOJ1LF5oArqsEa+PanZxa+gTMxnXoewnb8TQljTBOjK74+Ktj25H1voYXN/qmR7lRMhgn4mKA3BfQxe7hi1SbYX71vLTYSyuXTHrCdvIT1bYn/z3uMLUvCx/ZH7gJxwK1lOJyAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
