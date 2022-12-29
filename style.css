@@ -319,6 +319,10 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+.main__winners-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 .main__winners-item-link {
   text-decoration: none;
   display: flex;
@@ -449,6 +453,9 @@
   font-size: 12px;
   font-weight: 700;
   font-family: "Proxima Nova";
+}
+.footer__nav-end-link:hover {
+  opacity: 0.8;
 }
 .footer__contacts-container {
   width: 100%;
