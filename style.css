@@ -30,8 +30,8 @@
   padding-left: 20px;
 }
 .header__navigation-logo {
-  padding-left: 40px;
-  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .header__nav-top > a {
   text-decoration: none;
@@ -543,7 +543,7 @@
   }
   /* HEADER */
   .header__navigation-logo {
-    padding-right: 10px;
+    margin-right: 10px;
   }
   /* /HEADER */
   /* MAIN */
@@ -576,8 +576,8 @@
     display: none;
   }
   .header__navigation-logo {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .header__option {
     padding-right: 10px;
