@@ -33,7 +33,7 @@
   margin-left: 40px;
   margin-right: 40px;
 }
-.header__nav-top > a {
+.nav > a {
   text-decoration: none;
   padding: 15px;
   color: white;
@@ -41,7 +41,7 @@
   font-family: "Proxima Nova";
   font-weight: 600;
 }
-.header__nav-top > a:hover {
+.nav > a:hover {
   color: rgba(255, 255, 255, 0.774);
 }
 .header__toolbar {
@@ -49,35 +49,39 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.button__secondary-sml {
+.button {
+}
+.button-small {
   font-size: 1vw;
+  padding: 10px 20px 10px 20px;
+}
+.button-secondary {
+  margin-right: 20px;
   color: white;
   background-color: #1f2041;
   border: 2px white solid;
-  margin-right: 20px;
-  padding: 10px 20px 10px 20px;
-  border-radius: 8px;
   cursor: pointer;
   font-family: "Proxima Nova";
   font-weight: bold;
 }
-.button__secondary-sml:hover {
+.button-outline {
+  border-radius: 8px;
+}
+.button-secondary:hover {
   background-color: #30314d;
   color: rgba(255, 255, 255, 0.774);
   border: 2px rgba(255, 255, 255, 0.774) solid;
 }
-.button__primary-sml {
+.button-primary {
   text-align: center;
   font-size: 1vw;
   background-color: #ffc758;
   color: black;
-  padding: 10px 20px 10px 20px;
-  border-radius: 8px;
   cursor: pointer;
   font-family: "Proxima Nova";
   font-weight: bold;
 }
-.button__primary-sml:hover {
+.button-primary:hover {
   opacity: 0.9;
 }
 /* /HEADER */
@@ -125,6 +129,9 @@
 }
 .button-primary-lrg:hover {
   opacity: 0.9;
+}
+.jumbotron__img {
+  width: 100%;
 }
 /* /MAIN */
 /* MAIN__NAV-MIDDLE */
@@ -264,12 +271,14 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-gap: 20px;
   justify-content: space-between;
   align-items: center;
   text-align: center;
 }
 .main__slider-list-item {
+  /* height: 120px; */
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -291,6 +300,26 @@
   font-weight: 700;
   font-family: "Proxima Nova";
 }
+.main__slider-list-item-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #1f2041;
+  border-radius: 8px;
+  color: white;
+  z-index: 2;
+  cursor: pointer;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+}
+.main__slider-list-item-text > span {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Proxima Nova";
+}
+
 /* /MAIN__SLIDER */
 /* MAIN__WINNERS */
 .main__winners-container {
@@ -584,7 +613,7 @@
   }
   /* /HEADER */
   /* MAIN */
-  .main {
+  /* .main {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -608,7 +637,7 @@
   }
   .button-primary-lrg {
     font-size: 20px;
-  }
+  } */
   /* /MAIN */
   /* MAIN__NAV-MIDDLE */
   .main__nav-middle-text {
