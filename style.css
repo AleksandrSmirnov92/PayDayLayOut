@@ -142,19 +142,25 @@
 .main__nav-middle {
   display: flex;
   justify-content: center;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr; */
   background-color: #4b4072;
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 5px; */
+  padding-bottom: 8px;
+  width: 50%;
   max-width: 1100px;
   margin: 0 auto;
 }
 .main_nav-middle-link {
+  /* width: 1; */
   text-decoration: none;
   color: white;
   margin-left: 2px;
   margin-right: 2px;
   display: flex;
+
   align-items: center;
   text-align: center;
   flex-direction: column;
@@ -167,12 +173,12 @@
 .main__nav-middle-icon {
   padding-top: 10px;
   padding-bottom: 5px;
-  width: 25px;
-  height: 20px;
+  width: 21px;
+  height: 32px;
 }
 .main__nav-middle-text {
-  width: 50%;
-  padding: 10px 20px 10px 20px;
+  /* width: 40%; */
+  padding: 0px 10px 10px 10px;
   font-size: 1vw;
   font-weight: 700;
   font-family: "Proxima Nova";
@@ -183,8 +189,9 @@
 }
 .selected > span {
   font-weight: 700;
-  line-height: 12px;
+  line-height: 1vw;
   font-family: "Proxima Nova";
+  line-height: 12px;
   font-size: 1vw;
   letter-spacing: 5%;
   text-align: center;
@@ -195,10 +202,10 @@
   color: #1f2041;
   border-radius: 8px;
   background-color: #ffc758;
-  font-size: 1vw;
+  font-size: 12px;
   font-weight: 700;
-  padding: 5px 20px 5px 20px;
-  margin: 10px;
+  padding: 2px 10px 2px 10px;
+  margin: 0px 10px 10px 10px;
 }
 /*/ MAIN__NAV-MIDDLE */
 /* MAIN__SLIDER */
@@ -339,17 +346,21 @@ a {
 .main__slider-list-games {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 170px;
   grid-gap: 20px;
   justify-content: space-between;
   align-items: center;
   text-align: center;
 }
+
 .main__slider-list-item {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   background-color: #1f2041;
   border-radius: 8px;
   color: white;
@@ -358,6 +369,17 @@ a {
 }
 .main__slider-list-item:hover {
   opacity: 0.8;
+}
+.main__slider-list-item > a {
+  width: auto;
+  height: 140px;
+}
+.main__slider-list-item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* width: 154px;
+  height: 140px; */
 }
 .main__slider-list-item > span {
   padding-top: 10px;
@@ -639,6 +661,12 @@ a {
     margin: 0;
     width: 85%;
   }
+  .hide-item {
+    display: none;
+  }
+  .main__slider-list-games {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
   /* /MAIN__SLIDER */
 }
 @media (max-width: 991px) {
@@ -664,6 +692,15 @@ a {
   }
   .main__winners-item-text-date {
     padding-right: 10px;
+  }
+  .main__nav-middle-text {
+    /* width: 50%; */
+    font-size: 1vw;
+    /* padding: 5px 20px 5px 20px; */
+  }
+  .selected > span {
+    font-size: 1vw;
+    margin-top: 0px;
   }
   /* /MAIN__WINNERS */
 }
@@ -715,13 +752,24 @@ a {
   } */
   /* /MAIN */
   /* MAIN__NAV-MIDDLE */
+  .main__nav-middle {
+    justify-content: space-between;
+    width: 100%;
+  }
   .main__nav-middle-text {
     font-size: 2vw;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 5px 5px 5px;
   }
   .selected > span {
     font-size: 2vw;
-    padding: 5px 10px 5px 10px;
+    line-height: 12px;
+    letter-spacing: 5%;
+    font-weight: 700;
+    font-family: "Proxima Nova";
+    /* padding: 10px; */
+    margin: 0px 5px 10px 5px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
   /* /MAIN__NAV-MIDDLE */
   /* MAIN_SLIDER */
@@ -760,7 +808,14 @@ a {
   /* /MAIN */
   /* MAIN__NAV-MIDDLE */
   .main__nav-middle-text {
-    padding: 10px;
+    font-size: 2.5vw;
+    padding: 0px 10px 0px 10px;
+  }
+  .selected > span {
+    /* font-weight: 700; */
+    font-size: 2.5vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   /* /MAIN__NAV-MIDDLE */
   /* MAIN__SLIDER */
@@ -782,6 +837,9 @@ a {
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 0;
+  }
+  .main__slider-list-item > span {
+    color: #ffc758;
   }
   /* /MAIN__INFORMATION */
 }
