@@ -357,7 +357,6 @@ a {
   align-items: center;
   background-color: #1f2041;
   border-radius: 8px;
-  color: white;
   z-index: 2;
   cursor: pointer;
 }
@@ -376,12 +375,14 @@ a {
   height: 140px; */
 }
 .main__slider-list-item > span {
+  /* width: 100%; */
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 12px;
   font-weight: 700;
   color: white;
-  font-weight: 700;
+  letter-spacing: 0.2em;
+  line-height: 12px;
   font-family: "Proxima Nova";
 }
 .main__slider-list-item-text {
