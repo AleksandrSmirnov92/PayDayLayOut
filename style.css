@@ -384,7 +384,7 @@ a {
 .al-it-cntr {
   align-items: center;
 }
-.col-flex {
+.item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -393,7 +393,7 @@ a {
   z-index: 2;
   cursor: pointer;
 }
-.col-flex:hover {
+.item:hover {
   opacity: 0.8;
 }
 .col-bg {
@@ -405,16 +405,16 @@ a {
 .t-cntr {
   text-align: center;
 }
-.col-flex > a {
+.item > a {
   width: auto;
   height: 140px;
 }
-.col-flex > a > img {
+.item > a > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.col-flex > span {
+.item > span {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 14px;
@@ -980,7 +980,7 @@ a {
     padding-bottom: 5px;
     margin: 0;
   }
-  .col-flex > span {
+  .item > span {
     color: #ffc758;
   }
   /* /MAIN__INFORMATION */
