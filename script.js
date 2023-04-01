@@ -1,8 +1,9 @@
 "use strict";
 $(document).ready(function () {
-  $(".product-container").slick({
+  $(".product_slider-container").slick({
     infinity: true,
-    slidesToShow: 7,
+    slidesToShow: 6,
+    centerMode: true,
     variableWidth: true,
     prevArrow:
       "<span class='arrows-left'> <</span> <div class='shadow-block-left'></div>",
