@@ -798,9 +798,7 @@ a {
     grid-template-columns: auto auto auto auto auto auto;
     gap: 10px;
   }
-  /* .product-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  } */
+
   .main__nav-middle-text {
     line-height: 12px;
   }
@@ -904,7 +902,6 @@ a {
 
 @media (max-width: 480px) {
   .container {
-    /* max-width: 767px; */
     min-width: 350px;
   }
   /* MAIN */
